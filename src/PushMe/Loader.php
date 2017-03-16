@@ -28,7 +28,7 @@ class Loader extends Plugin implements Listener {
                 }
                 $player->getLevel()->addSound(new FizzSound(new Vector3($player->getX(), $player->getY(), $player->getZ())));
             } else {
-                $player->sendTip("I don wanna push you cuz you to noob for me");
+                $player->sendTip("Fly");
                 $player->getLevel()->addSound(new ClickSound(new Vector3($player->getX(), $player->getY(), $player->getZ())));
             }
     }
